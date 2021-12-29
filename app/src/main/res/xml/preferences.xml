@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory android:title="@string/preferences_sensorDelayCat">
+        <ListPreference 
+            android:title="@string/preferences_sensorDelayTitle"
+            android:key="sensorDelay"
+            android:summary="@string/preferences_sensorDelaySummary"
+            android:entries="@array/sensorDelay"
+            android:entryValues="@array/sensorDelayValues"
+            android:defaultValue="2"/>
+        <EditTextPreference android:key="smoothness" android:inputType="numberDecimal" android:defaultValue="0.1" android:title="@string/preferences_sensorLowpassTitle" android:summary="@string/preferences_sensorLowpassSummary"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_logDirectoryCat">
+        <EditTextPreference android:defaultValue="Androsens2" android:title="@string/preferences_logDirectoryTitel" android:key="logfiledirectory" android:summary="@string/preferences_logDirectoryDescription"/>
+    </PreferenceCategory><PreferenceCategory android:title="@string/preferences_contactDeveloperCat">
+        <Preference android:title="@string/preferences_contactDeveloperTitel" android:key="emaildeveloper" android:summary="@string/preferences_contactDeveloperDescription" />
+        <Preference android:key="rateApp" android:summary="@string/preferences_rateAppDescription" android:title="@string/preferences_rateAppTitel" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_licenseCat">
+        <Preference android:summary="@string/preferences_licenseDescription" android:title="@string/preferences_licenseTitle" android:key="showLicense"/>
+    </PreferenceCategory>
+    
+    
+
+</PreferenceScreen>

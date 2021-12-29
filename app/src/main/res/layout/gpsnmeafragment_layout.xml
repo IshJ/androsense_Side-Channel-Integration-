@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/gpsnmea_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:divider="@drawable/gradient_skyblue_small" >
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/gpsnmeafragment_ll_btns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/gpsnmeafragment_ll_btn_clear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_border"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/gpsnmeafragment_tv_clear_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/gpsnmeafragment_btn_clear" />
+
+            <ImageButton
+                android:id="@+id/gpsnmeafragment_btn_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/shape_border"
+                android:padding="10dp"
+                android:src="@drawable/recyclefull" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gpsnmeafragment_ll_active"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_border"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/gpsnmeafragment_tv_active_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/gpsnmeafragment_tv_active_title" />
+
+            <ToggleButton
+                android:id="@+id/gpsnmeafragment_tb_active"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableTop="@drawable/shutdown"
+                android:textOff=""
+    			android:textOn=""
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gpsnmeafragment_ll_log"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_border"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/gpsnmeafragment_tv_log_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/sensorchartactivity_textView_log" />
+
+            <ToggleButton
+                android:id="@+id/gpsnmeafragment_tb_log"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableTop="@drawable/save"
+    			android:textOff=""
+    			android:textOn=""
+    			android:textSize="0dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

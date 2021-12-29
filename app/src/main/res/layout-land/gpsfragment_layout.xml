@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gpsfragment_ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/activity_border_small_padding"
+    android:paddingRight="@dimen/activity_border_small_padding" >
+
+    <com.tritop.androsense2.views.SatView
+        android:id="@+id/view_gpsSatView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/gpsfragment_ll_satinfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/gpsfragment_ll_positionoverview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:id="@+id/gpsfragment_ll_position_lat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/activity_border_small_padding"
+                android:layout_marginRight="@dimen/activity_border_small_padding"
+                android:layout_weight="1"
+                android:background="@drawable/shape_border"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/gpsfragment_tv_position_lat_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/gpsfragment_tv_latitude_title"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/gpsfragment_tv_position_lat_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/activity_text_very_small_padding"
+                    android:paddingRight="@dimen/activity_text_very_small_padding"
+                    android:text="searching..."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/gpsfragment_ll_position_alt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/activity_border_small_padding"
+                android:layout_marginRight="@dimen/activity_border_small_padding"
+                android:layout_weight="1"
+                android:background="@drawable/shape_border"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/gpsfragment_tv_position_alt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/gpsfragment_tv_altitude_title"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/gpsfragment_tv_position_alt_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/activity_text_very_small_padding"
+                    android:paddingRight="@dimen/activity_text_very_small_padding"
+                    android:text="searching..."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/gpsfragment_ll_position_lon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/activity_border_small_padding"
+                android:layout_marginRight="@dimen/activity_border_small_padding"
+                android:layout_weight="1"
+                android:background="@drawable/shape_border"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/gpsfragment_tv_position_lon_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/gpsfragment_tv_longitude_title"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/gpsfragment_tv_position_lon_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/activity_text_very_small_padding"
+                    android:paddingRight="@dimen/activity_text_very_small_padding"
+                    android:text="searching..."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gpsfragment_ll_satsoverview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/gpsfragment_ll_gpssats"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/activity_border_small_padding"
+                android:layout_marginRight="@dimen/activity_border_small_padding"
+                android:layout_weight="1"
+                android:background="@drawable/shape_border"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_text_very_small_padding"
+                android:paddingLeft="@dimen/activity_border_small_padding"
+                android:paddingRight="@dimen/activity_border_small_padding" >
+
+                <TextView
+                    android:id="@+id/gpsfragment_tv_gpssats_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/gpsfragment_tv_gpssattitle"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <GridView
+                    android:id="@+id/gpsfragment_grid_gps"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnWidth="25dp"
+                    android:gravity="center"
+                    android:horizontalSpacing="2dp"
+                    android:numColumns="auto_fit" />
+                    
+                
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/gpsfragment_ll_glonassats"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/activity_border_small_padding"
+                android:layout_marginRight="@dimen/activity_border_small_padding"
+                android:layout_weight="1"
+                android:background="@drawable/shape_border"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_text_very_small_padding"
+                android:paddingLeft="@dimen/activity_border_small_padding"
+                android:paddingRight="@dimen/activity_border_small_padding" >
+
+                <TextView
+                    android:id="@+id/gpsfragment_tv_glonassats_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/gpsfragment_tv_glonassattitle"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <GridView
+                    android:id="@+id/gpsfragment_grid_glonass"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnWidth="25dp"
+                    android:gravity="center"
+                    android:horizontalSpacing="2dp"
+                    android:numColumns="auto_fit" />
+                    
+
+             
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gpsfragment_llayout_log"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginBottom="@dimen/activity_border_small_padding"
+            android:layout_marginLeft="@dimen/activity_border_small_padding"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:background="@drawable/shape_border"
+            android:minHeight="100dp"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_border_small_padding"
+            android:paddingLeft="@dimen/activity_border_small_padding"
+            android:paddingRight="@dimen/activity_border_small_padding" >
+
+            <TextView
+                android:id="@+id/gpsfragment_textView_Log"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/sensorchartactivity_textView_log" />
+
+            <ToggleButton
+                android:id="@+id/gpsfragment_toggleButton_log"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableTop="@drawable/save"
+    			android:textOff=""
+    			android:textOn=""
+    			android:textSize="0dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

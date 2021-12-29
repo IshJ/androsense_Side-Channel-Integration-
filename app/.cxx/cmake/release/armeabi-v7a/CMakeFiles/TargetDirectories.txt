@@ -1,0 +1,12 @@
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/native-lib.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/armeabi-v7a/libflush/CMakeFiles/rebuild_cache.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/armeabi-v7a/libflush/CMakeFiles/edit_cache.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/armeabi-v7a/libflush/CMakeFiles/flush.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/armeabi-v7a/dexinfo/CMakeFiles/rebuild_cache.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/armeabi-v7a/dexinfo/CMakeFiles/edit_cache.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/armeabi-v7a/dexinfo/CMakeFiles/dexinfo.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/armeabi-v7a/oat-parser/CMakeFiles/rebuild_cache.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/armeabi-v7a/oat-parser/CMakeFiles/edit_cache.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/armeabi-v7a/oat-parser/CMakeFiles/oatparser.dir

@@ -1,0 +1,49 @@
+{
+  "buildFiles": [
+    "/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/src/main/cpp/CMakeLists.txt",
+    "/home/ishadi/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/home/ishadi/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
+    "/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/src/main/cpp/libflush/CMakeLists.txt",
+    "/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/src/main/cpp/libflush/config.cmake",
+    "/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/src/main/cpp/dexinfo/CMakeLists.txt",
+    "/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/src/main/cpp/oat-parser/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/ishadi/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/x86\" clean"
+  ],
+  "buildTargetsCommand": "/home/ishadi/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "flush-Release-x86": {
+      "artifactName": "flush",
+      "buildCommand": "/home/ishadi/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/x86\" flush",
+      "abi": "x86",
+      "output": "/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/src/main/cpp/libflush/libs/x86/libflush.so",
+      "runtimeFiles": []
+    },
+    "oatparser-Release-x86": {
+      "artifactName": "oatparser",
+      "buildCommand": "/home/ishadi/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/x86\" oatparser",
+      "abi": "x86",
+      "output": "/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/build/intermediates/cmake/release/obj/x86/liboatparser.so",
+      "runtimeFiles": []
+    },
+    "native-lib-Release-x86": {
+      "artifactName": "native-lib",
+      "buildCommand": "/home/ishadi/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/x86\" native-lib",
+      "abi": "x86",
+      "output": "/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
+      "runtimeFiles": [
+        "/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/build/intermediates/cmake/release/obj/x86/liboatparser.so",
+        "/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/src/main/cpp/libflush/libs/x86/libflush.so",
+        "/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/build/intermediates/cmake/release/obj/x86/libdexinfo.so"
+      ]
+    },
+    "dexinfo-Release-x86": {
+      "artifactName": "dexinfo",
+      "buildCommand": "/home/ishadi/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/x86\" dexinfo",
+      "abi": "x86",
+      "output": "/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/build/intermediates/cmake/release/obj/x86/libdexinfo.so",
+      "runtimeFiles": []
+    }
+  }
+}

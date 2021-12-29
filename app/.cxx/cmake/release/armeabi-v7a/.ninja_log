@@ -1,0 +1,27 @@
+# ninja log v5
+1	109	1637503157	libflush/CMakeFiles/flush.dir/libflush/lock.c.o	2fa48c0bc8d09493
+1	141	1637503157	libflush/CMakeFiles/flush.dir/libflush/timing.c.o	52271c2f5195c54e
+11	142	1637503157	libflush/CMakeFiles/flush.dir/libflush/utils.c.o	46533acce431005d
+0	142	1637503157	libflush/CMakeFiles/flush.dir/libflush/calibrate.c.o	539154575462c121
+26	142	1637503157	libflush/CMakeFiles/flush.dir/libflush/armv7/libflush.c.o	604185363697ba9e
+1	143	1637503157	libflush/CMakeFiles/flush.dir/libflush/libflush.c.o	893ff1980d00fd15
+0	194	1637503157	CMakeFiles/native-lib.dir/fakedl.cpp.o	1953407f8b13127d
+26	204	1637503157	libflush/CMakeFiles/flush.dir/libflush/eviction/eviction.c.o	2f0d6b94b5b20162
+0	298	1637503157	libflush/CMakeFiles/flush.dir/libflush/hit.c.o	8d45a003f45770f
+27	615	1637503157	dexinfo/CMakeFiles/dexinfo.dir/dexinfo.cpp.o	ca14be0d06635cb6
+0	665	1637503157	CMakeFiles/native-lib.dir/CheckFlags.cpp.o	8b0e45b9ec83121a
+110	773	1637503157	oat-parser/CMakeFiles/oatparser.dir/elf/elfloader.cpp.o	57c0c04d577530e7
+27	905	1637503158	oat-parser/CMakeFiles/oatparser.dir/oat/OATParser.cpp.o	cee46d309a6fd707
+0	920	1637503158	CMakeFiles/native-lib.dir/ReadOffset.cpp.o	4ef61968226a2dd0
+0	923	1637503158	CMakeFiles/native-lib.dir/native-lib.cpp.o	7e8f66a61105458e
+1	28	1637503258	/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/build/intermediates/cmake/release/obj/armeabi-v7a/libdexinfo.so	f888e9333ec4700
+1	29	1637503258	/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/build/intermediates/cmake/release/obj/armeabi-v7a/liboatparser.so	4b76725cd555e811
+0	837	1637503604	CMakeFiles/native-lib.dir/ReadOffset.cpp.o	4ef61968226a2dd0
+1	83	1637504522	libflush/CMakeFiles/flush.dir/libflush/libflush.c.o	893ff1980d00fd15
+0	4	0	clean	b8c439ba46896fb8
+0	2	0	clean	b8c439ba46896fb8
+0	3	0	clean	b8c439ba46896fb8
+0	2	0	clean	b8c439ba46896fb8
+0	2	0	clean	b8c439ba46896fb8
+0	2	0	clean	b8c439ba46896fb8
+0	2	0	clean	b8c439ba46896fb8

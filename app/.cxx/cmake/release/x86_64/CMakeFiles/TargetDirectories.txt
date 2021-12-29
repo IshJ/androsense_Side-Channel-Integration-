@@ -1,0 +1,12 @@
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/x86_64/CMakeFiles/native-lib.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/x86_64/libflush/CMakeFiles/rebuild_cache.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/x86_64/libflush/CMakeFiles/edit_cache.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/x86_64/libflush/CMakeFiles/flush.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/x86_64/dexinfo/CMakeFiles/rebuild_cache.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/x86_64/dexinfo/CMakeFiles/edit_cache.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/x86_64/dexinfo/CMakeFiles/dexinfo.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/x86_64/oat-parser/CMakeFiles/rebuild_cache.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/x86_64/oat-parser/CMakeFiles/edit_cache.dir
+/home/ishadi/Documents/AndroidCFI/app-code/androsense_code/app/.cxx/cmake/release/x86_64/oat-parser/CMakeFiles/oatparser.dir

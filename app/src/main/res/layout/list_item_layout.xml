@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/list_item_margin_left"
+        android:layout_weight="5"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView_SensorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/skyblue" />
+
+        <TextView
+            android:id="@+id/textView_SensorVendor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="@dimen/list_item_type_textsize"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView_SensorVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="@dimen/list_item_type_textsize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/list_item_margin_left"
+        android:layout_weight="13"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView_SensorMaxRange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="TextView"
+            android:textSize="@dimen/list_item_values_textsize"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView_SensorResolution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="TextView"
+            android:textSize="@dimen/list_item_values_textsize"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView_SensorPower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="TextView"
+            android:textSize="@dimen/list_item_values_textsize"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+</LinearLayout>
